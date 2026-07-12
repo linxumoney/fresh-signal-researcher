@@ -1,0 +1,7 @@
+interface:
+  display_name: "新鲜信号研究员"
+  short_description: "识别时间窗内真正新增、可追溯的行业信号"
+  default_prompt: "使用 $fresh-signal-researcher 调研这个话题最近 30 天的真实变化，并区分事实、情绪和推断。"
+
+policy:
+  allow_implicit_invocation: true
